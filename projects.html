@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+   
+    
+    /* Add a gray background color and some padding to the footer */
+    
+
+  #div1 {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 60px;
+    position: fixed;
+  }
+  .atag{
+    color: yellow;
+    margin-left: 20px;
+  }
+  .atag1{
+    color: red;
+    margin-left: 20px;
+  }
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+  #section1 {color: #fff; background:Gray ;}
+  #section2 {color: #fff; background:lightGray ;}
+  
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2  {
+      margin-left: 150px;
+    }
+  }
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Projects</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="div1"data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li ><a href="#section1">Python</a></li>
+        <li ><a href="#section2">Html</a></li>
+        
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">    
+        <h1>Python</h1>
+        <a class="atag"href="https://tic-tac-toe.sruthi1.repl.run">tic tac toe</a>
+      </div>
+      <div id="section2"> 
+        <h1>Html</h1>
+       <a class="atag1"href="calc/cal1.html">Calculator</a>
+      </div>        
+      
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
